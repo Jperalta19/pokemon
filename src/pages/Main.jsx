@@ -1,6 +1,5 @@
 import React from 'react';
 import Carousell from '../components/Carousell.jsx';
-import Footer from '../components/Footer.jsx';
 
 const Main = () => {
   return (
@@ -19,9 +18,8 @@ const Main = () => {
               </figcaption>
             </figure>
             <h2 className='bg-dark text-white mb-5'>Opening</h2>
-        </div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/uDIoEbbFKAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <Footer/>   
+        </div> 
+        <frameborder width="560" height="315" src="https://www.youtube.com/embed/uDIoEbbFKAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></frameborder>
     </div>
   )
 }

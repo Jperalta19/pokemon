@@ -24,9 +24,10 @@ const Footer = () => {
                     <ul className='col-12 col-md-3 list-unstyled'>
                         <li className='font-weight-bold mb-2'>Siguenos</li>
                         <li className='d-flex justify-content-between'>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-youtube"></i>
-                        <i class="bi bi-facebook"></i>
+                        <Link to='https://www.instagram.com/jperalta_/'><i className="bi bi-instagram"></i></Link>
+                        <Link to="https://www.youtube.com/@esteesmicanall"><i className="bi bi-youtube"></i></Link>
+                        <Link to="https://www.facebook.com/profile.php?id=100094220453535&locale=es_LA"><i className="bi bi-facebook"></i></Link>
+                        <Link to="https://twitter.com/jperalta___"><i className="bi bi-twitter"></i></Link>
                         </li>
                     </ul>
                 </nav>

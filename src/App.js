@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbarr from './components/Navbarr.jsx'
 import Main from './pages/Main.jsx'
@@ -15,6 +16,7 @@ function App() {
         <Route path='/Pokemon' element={<Pokemon/>}/>
         <Route path='/Items' element={<Items/>}/>
       </Routes>
+      <Footer/>
     </Router>
     
     </div>
