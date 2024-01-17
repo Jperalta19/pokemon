@@ -18,7 +18,7 @@ export const Itempokemon = ({url}) => {
                     <h5 className='card-title'>{data.id}</h5>
                 </div>
                 <div className='card-body'>
-                <img src={data.sprites.front_default} alt='item'/>
+                <img src={data.sprites.default} alt='item'/>
                 </div>
                 <div className='card-footer'>
                     <p className='card-text text-capitalize'>{data.name}</p>
