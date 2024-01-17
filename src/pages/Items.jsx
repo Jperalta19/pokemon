@@ -4,7 +4,7 @@ import {Usefecth} from '../components/Usefecth';
 
 const Items = () => {
 
-  const [url,setUrl]=useState('https://pokeapi.co/api/v2/pokemon')
+  const [url,setUrl]=useState('https://pokeapi.co/api/v2/item')
 
   const status= Usefecth(url);
   const {loading,data}=status;

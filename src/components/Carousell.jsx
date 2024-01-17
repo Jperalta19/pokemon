@@ -5,25 +5,25 @@ const Carousell = () => {
   return (
     <>
         <Carousel fade>
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <img
-          className="d-block w-100"
           src="../image/fileSALHDBG2.jpg"
-          alt="..."
+          className="d-block w-100"          
+          alt="imagen 1"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="../image/295844955_5254585801296836_3021318724089898047_n.jpg"
-          alt="..."
+          alt="imagen 2"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src=""
-          alt="..."
+          alt="imagen 3"
         />
       </Carousel.Item>
     </Carousel>      
