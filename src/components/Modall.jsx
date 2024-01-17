@@ -33,7 +33,7 @@ const Modall = ( {id, titulo, contenido}) => {
   return (
     <div>
     <Button variant="primary" onClick={() => setModalShow(true)}>
-        Launch vertically centered modal
+        Infomation
       </Button>
 
       <MyVerticallyCenteredModal title={titulo} id={id} content={contenido}

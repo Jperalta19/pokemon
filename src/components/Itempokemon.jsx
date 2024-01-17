@@ -23,7 +23,6 @@ export const Itempokemon = ({url}) => {
                 <div className='card-footer'>
                     <p className='card-text text-capitalize'>{data.name}</p>
                 </div>
-
             </div>
         }
     </div>

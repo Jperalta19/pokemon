@@ -1,5 +1,6 @@
 import React from 'react';
 import {Usefecth} from './Usefecth'
+import Modall from './Modall';
 
 export const CardPokemon = ({url}) => {
 
@@ -23,7 +24,7 @@ export const CardPokemon = ({url}) => {
                 <div className='card-footer'>
                     <p className='card-text text-capitalize'>{data.forms[0].name}</p>
                 </div>
-
+                <Modall id={data.id} titulo={data.name} contenido={data.effect_entries}/>
             </div>
         }
     </div>
